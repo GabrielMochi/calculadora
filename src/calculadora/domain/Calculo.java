@@ -25,5 +25,10 @@ public class Calculo {
     public void setResultado(String resultado) {
         this.resultado = resultado;
     }
+
+    @Override
+    public String toString() {
+        return "Calculo{" + "formula=" + formula + ", resultado=" + resultado + '}';
+    }
     
 }

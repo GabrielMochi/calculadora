@@ -1,11 +1,11 @@
 package calculadora;
 
-import calculadora.view.Interface;
+import calculadora.view.GUI;
 
 public class Calculadora {
 
     public static void main(String[] args) {
-        Interface.launch(args);
+        GUI.launch(args);
     }
     
 }
